@@ -1,0 +1,326 @@
+/* missing_condition_after_while */
+"missing condition in a 'while' statement" = "Ồ, bạn có một lỗi. Hãy kiểm tra mã của bạn xung quanh dòng này để thử và sửa lỗi.\n\nLỗi: Bạn cần thêm một điều kiện vào câu lệnh \'while\' của mình";
+
+/* expected_switch_expr */
+"expected expression in 'switch' statement" = "Ồ, bạn có một lỗi. Hãy kiểm tra mã của bạn xung quanh dòng này để thử và sửa lỗi.\n\nLỗi: Bạn cần một biểu thức trong câu lệnh \'switch\'";
+
+/* use_local_before_declaration */
+"use of local variable %0 before its declaration" = "Ồ, bạn có một lỗi. Hãy kiểm tra mã của bạn xung quanh dòng này để thử và sửa lỗi.\n\nLỗi: Bạn cần khai báo biến %0 trước khi sử dụng";
+
+/* could_not_find_tuple_member */
+"value of tuple type %0 has no member %1" = "Ồ, bạn có một lỗi. Hãy kiểm tra mã của bạn xung quanh dòng này để thử và sửa lỗi.\n\nLỗi: Giá trị của kiểu tập hợp %0 không có thành viên %1";
+
+/* expected_expr_after_unary_operator */
+"expected expression after unary operator" = "Ồ, bạn có một lỗi. Hãy kiểm tra mã của bạn xung quanh dòng này để thử và sửa lỗi.\n\nLỗi: Dự kiến có biểu thức sau toán tử đơn phân";
+
+/* extra_argument_labels */
+"extraneous argument label%select{|s}0 '%1' in %select{call|subscript}2" = "Ồ, bạn có một lỗi. Hãy kiểm tra mã của bạn xung quanh dòng này để thử và sửa lỗi.\n\nLỗi: Nhãn đối số ngoại lai %select{|s}0 \'%1\' trong %select{call|subscript}2";
+
+/* instance_member_use_on_type */
+"instance member %1 cannot be used on type %0; did you mean to use a value of this type instead?" = "Ồ, bạn có một lỗi. Hãy kiểm tra mã của bạn xung quanh dòng này để thử và sửa lỗi.\n\nLỗi: Không thể sử dụng thành viên thể hiện %1 trên kiểu %0; có phải ý bạn là sử dụng một giá trị thuộc kiểu này thay thế không?";
+
+/* invalid_postfix_operator */
+"operator with postfix spacing cannot start a subexpression" = "Ồ, bạn có một lỗi. Hãy kiểm tra mã của bạn xung quanh dòng này để thử và sửa lỗi.\n\nLỗi: Toán tử có giãn cách hậu tố không thể bắt đầu một biểu thức con";
+
+/* expected_while_after_repeat_body */
+"expected 'while' after body of 'repeat' statement" = "Ồ, bạn có một lỗi. Hãy kiểm tra mã của bạn xung quanh dòng này để thử và sửa lỗi.\n\nLỗi: Bạn cần một \'while\' sau câu lệnh \'repeat\'";
+
+/* expected_lbrace_after_else */
+"expected '{' after 'else'" = "Ồ, bạn có một lỗi. Hãy kiểm tra mã của bạn xung quanh dòng này để thử và sửa lỗi.\n\nLỗi: Bạn cần một \'{\' sau câu lệnh \'else\'";
+
+/* expected_identifier_after_dot_expr */
+"expected identifier after '.' expression" = "Ồ, bạn có một lỗi. Hãy kiểm tra mã của bạn xung quanh dòng này để thử và sửa lỗi.\n\nLỗi: Dự kiến có một mã định danh sau dấu \'.\'";
+
+/* expected_rparen_expr_list */
+"expected ')' in expression list" = "Ồ, bạn có một lỗi. Hãy kiểm tra mã của bạn xung quanh dòng này để thử và sửa lỗi.\n\nLỗi: Bạn đang thiếu một \')\' trong biểu thức";
+
+/* ambiguous_member_overload_set */
+"ambiguous reference to member %0" = "Ồ, bạn có một lỗi. Hãy kiểm tra mã của bạn xung quanh dòng này để thử và sửa lỗi.\n\nLỗi: Tham chiếu mơ hồ đến thành viên %0";
+
+/* expected_type */
+"expected type" = "Ồ, bạn có một lỗi. Hãy kiểm tra mã của bạn xung quanh dòng này để thử và sửa lỗi.\n\nLỗi: Dự kiến có loại";
+
+/* expected_init_value */
+"expected initial value after '='" = "Ồ, bạn có một lỗi. Hãy kiểm tra mã của bạn xung quanh dòng này để thử và sửa lỗi.\n\nLỗi: Bạn cần một giá trị sau dấu \'=\'";
+
+/* unexpected_separator */
+"unexpected '%0' separator" = "Ồ, bạn có một lỗi. Hãy kiểm tra mã của bạn xung quanh dòng này để thử và sửa lỗi.\n\nLỗi: dấu phân cách \'%0\' ngoài dự kiến";
+
+/* type_does_not_conform */
+"type %0 does not conform to protocol %1" = "Ồ, bạn có một lỗi. Hãy kiểm tra mã của bạn xung quanh dòng này để thử và sửa lỗi.\n\nLỗi: kiểu %0 không tuân theo giao thức %1";
+
+/* partial_application_of_function_invalid */
+"partial application of %select{function with 'inout' parameters|'mutating' method|'super.init' initializer chain|'self.init' initializer delegation}0 is not allowed" = "Ồ, bạn có một lỗi. Hãy kiểm tra mã của bạn xung quanh dòng này để thử và sửa lỗi.\n\nLỗi: Một phần ứng dụng của %select{function with \'inout\' parameters|\'mutating\' method|\'super.init\' initializer chain|\'self.init\' initializer delegation}0 không được phép";
+
+/* type_of_expression_is_ambiguous */
+"type of expression is ambiguous without more context" = "Ồ, bạn có một lỗi. Hãy kiểm tra mã của bạn xung quanh dòng này để thử và sửa lỗi.\n\nLỗi: Kiểu của biểu thức mơ hồ khi không có thêm ngữ cảnh";
+
+/* ambiguous_decl_ref */
+"ambiguous use of %0" = "Ồ, bạn có một lỗi. Hãy kiểm tra mã của bạn xung quanh dòng này để thử và sửa lỗi.\n\nLỗi: Cách sử dụng của %0 mơ hồ";
+
+/* wrong_argument_labels_overload */
+"argument labels '%0' do not match any available overloads" = "Ồ, bạn có một lỗi. Hãy kiểm tra mã của bạn xung quanh dòng này để thử và sửa lỗi.\n\nLỗi: Các nhãn đối số \'%0\' mà bạn đang sử dụng không khớp với bất kỳ thứ gì khả dụng. Hãy kiểm tra hàm hoặc trình khởi chạy mà bạn đang cố gắng gọi và đảm bảo sử dụng các đối số khớp.";
+
+/* init_candidate_inaccessible */
+"%0 initializer is inaccessible due to '%select{private|fileprivate|internal|%error|%error}1' protection level" = "Ồ, bạn có một lỗi. Hãy kiểm tra mã của bạn xung quanh dòng này để thử và sửa lỗi.\n\nLỗi: Trình khởi chạy %0 không thể truy cập được do cấp độ bảo vệ \'%select{private|fileprivate|internal|%error|%error}1\'";
+
+/* expected_foreach_in */
+"expected 'in' after for-each pattern" = "Ồ, bạn có một lỗi. Hãy kiểm tra mã của bạn xung quanh dòng này để thử và sửa lỗi.\n\nLỗi: Bạn cần một \'in\' sau khuôn mẫu for-each";
+
+/* expected_init_for_stmt */
+"expected initialization in a 'for' statement" = "Ồ, bạn có một lỗi. Hãy kiểm tra mã của bạn xung quanh dòng này để thử và sửa lỗi.\n\nLỗi: Dự kiến có phần khởi tạo trong câu lệnh \'for\'";
+
+/* cannot_call_non_function_value */
+"cannot call value of non-function type %0" = "Ồ, bạn có một lỗi. Hãy kiểm tra mã của bạn xung quanh dòng này để thử và sửa lỗi.\n\nLỗi: Không thể gọi giá trị của loại không phải hàm %0";
+
+/* availability_decl_unavailable_msg */
+"%0 is unavailable: %1" = "Ồ, bạn có một lỗi. Hãy kiểm tra mã của bạn xung quanh dòng này để thử và sửa lỗi.\n\nLỗi: %0 không khả dụng: %1";
+
+/* cannot_apply_lvalue_binop_to_subelement */
+"left side of mutating operator isn't mutable: %0" = "Ồ, bạn có một lỗi. Hãy kiểm tra mã của bạn xung quanh dòng này để thử và sửa lỗi.\n\nLỗi: Vế bên trái của toán tử biến đổi không biến đổi được: %0";
+
+/* wrong_argument_labels */
+"incorrect argument label%select{|s}0 in %select{call|subscript}3 (have '%1', expected '%2')" = "Ồ, bạn có một lỗi. Hãy kiểm tra mã của bạn xung quanh dòng này để thử và sửa lỗi.\n\nLỗi: Nhãn đối số không đúng %select{|s}0 trong %select{call|subscript}3 (có \'%1\', dự kiến \'%2\')";
+
+/* cannot_call_with_params */
+"cannot invoke %select{|initializer for type }2'%0' with an argument list of type '%1'" = "Ồ, bạn có một lỗi. Hãy kiểm tra mã của bạn xung quanh dòng này để thử và sửa lỗi.\n\nLỗi: Không thể gọi %select{|initializer for type }2\'%0\' bằng danh sách đối số thuộc loại \'%1\'";
+
+/* cannot_infer_type_for_pattern */
+"type annotation missing in pattern" = "Ồ, bạn có một lỗi. Hãy kiểm tra mã của bạn xung quanh dòng này để thử và sửa lỗi.\n\nLỗi: Thiếu chú thích kiểu trong khuôn mẫu";
+
+/* empty_switch_stmt */
+"'switch' statement body must have at least one 'case' or 'default' block" = "Ồ, bạn có một lỗi. Hãy kiểm tra mã của bạn xung quanh dòng này để thử và sửa lỗi.\n\nLỗi: Phần thân của câu lệnh \'switch\' phải có ít nhất một khối \'case\' hoặc \'default\'";
+
+/* lex_unterminated_string */
+"unterminated string literal" = "Ồ, bạn có một lỗi. Hãy kiểm tra mã của bạn xung quanh dòng này để thử và sửa lỗi.\n\nLỗi: Chuỗi ký tự không đổi chưa kết thúc";
+
+/* parameter_unnamed */
+"unnamed parameters must be written with the empty name '_'" = "Ồ, bạn có một lỗi. Hãy kiểm tra mã của bạn xung quanh dòng này để thử và sửa lỗi.\n\nLỗi: Các tham số chưa đặt tên phải được viết bằng tên trống \'_\'";
+
+/* expression_unused_lvalue */
+"expression resolves to an unused l-value" = "Ồ, bạn có một lỗi. Hãy kiểm tra mã của bạn xung quanh dòng này để thử và sửa lỗi.\n\nLỗi: Biểu thức phân giải thành một l-value không được sử dụng";
+
+/* var_init_self_referential */
+"variable used within its own initial value" = "Ồ, bạn có một lỗi. Hãy kiểm tra mã của bạn xung quanh dòng này để thử và sửa lỗi.\n\nLỗi: Bạn không thể sử dụng cùng một biến để đặt giá trị ban đầu";
+
+/* expected_semi_for_stmt */
+"expected ';' in 'for' statement" = "Ồ, bạn có một lỗi. Hãy kiểm tra mã của bạn xung quanh dòng này để thử và sửa lỗi.\n\nLỗi: Dự kiến có \';\' trong câu lệnh \'for\'";
+
+/* keyword_cant_be_identifier */
+"keyword '%0' cannot be used as an identifier here" = "Ồ, bạn có một lỗi. Hãy kiểm tra mã của bạn xung quanh dòng này để thử và sửa lỗi.\n\nLỗi: Không thể sử dụng từ khóa \'%0\' dưới dạng mã định danh tại đây";
+
+/* expression_unused_function */
+"expression resolves to an unused function" = "Ồ, bạn có một lỗi. Hãy kiểm tra mã của bạn xung quanh dòng này để thử và sửa lỗi.\n\nLỗi: Biểu thức phân giải thành một hàm không được sử dụng";
+
+/* func_decl_without_brace */
+"expected '{' in body of function declaration" = "Ồ, bạn có một lỗi. Hãy kiểm tra mã của bạn xung quanh dòng này để thử và sửa lỗi.\n\nLỗi: Dự kiến có \'{\' trong phần thân của khai báo hàm";
+
+/* statement_same_line_without_semi */
+"consecutive statements on a line must be separated by ';'" = "Ồ, bạn có một lỗi. Hãy kiểm tra mã của bạn xung quanh dòng này để thử và sửa lỗi.\n\nLỗi: Các câu lệnh liên tiếp trên một dòng phải được phân tách bằng \';\'";
+
+/* extra_argument_to_nullary_call */
+"argument passed to call that takes no arguments" = "Ồ, bạn có một lỗi. Hãy kiểm tra mã của bạn xung quanh dòng này để thử và sửa lỗi.\n\nLỗi: Đối số được chuyển vào lệnh gọi không sử dụng đối số";
+
+/* self_assignment_var */
+"assigning a variable to itself" = "Ồ, bạn có một lỗi. Hãy kiểm tra mã của bạn xung quanh dòng này để thử và sửa lỗi.\n\nLỗi: Đang gán một biến cho chính nó";
+
+/* missing_argument_positional */
+"missing argument for parameter #%0 in call" = "Ồ, bạn có một lỗi. Hãy kiểm tra mã của bạn xung quanh dòng này để thử và sửa lỗi.\n\nLỗi: Thiếu đối số cho tham số #%0 trong lệnh gọi";
+
+/* lex_single_quote_string */
+"single-quoted string literal found, use '\\\"'" = "Ồ, bạn có một lỗi. Hãy kiểm tra mã của bạn xung quanh dòng này để thử và sửa lỗi.\n\nLỗi: Đã tìm thấy chuỗi ký tự không đổi được trích dẫn đơn, sử dụng \'\\\"\'";
+
+/* cannot_apply_binop_to_args */
+"binary operator '%0' cannot be applied to operands of type %1 and %2" = "Ồ, bạn có một lỗi. Hãy kiểm tra mã của bạn xung quanh dòng này để thử và sửa lỗi.\n\nLỗi: Không thể áp dụng toán tử nhị phân \'%0\' cho các toán hạng thuộc loại %1 và %2";
+
+/* value_of_metatype_type */
+"expected member name or constructor call after type name" = "Ồ, bạn có một lỗi. Hãy kiểm tra mã của bạn xung quanh dòng này để thử và sửa lỗi.\n\nLỗi: Dự kiến có tên thành viên hoặc lệnh gọi phương thức khởi tạo sau tên loại";
+
+/* missing_condition_after_if */
+"missing condition in an 'if' statement" = "Ồ, bạn có một lỗi. Hãy kiểm tra mã của bạn xung quanh dòng này để thử và sửa lỗi.\n\nLỗi: Bạn cần một điều kiện trong câu lệnh \'if\'";
+
+/* func_decl_without_paren */
+"expected '(' in argument list of function declaration" = "Ồ, bạn có một lỗi. Hãy kiểm tra mã của bạn xung quanh dòng này để thử và sửa lỗi.\n\nLỗi: Dự kiến có \'(\' trong danh sách đối số của khai báo hàm";
+
+/* could_not_find_type_member */
+"type %0 has no member %1" = "Ồ, bạn có một lỗi. Hãy kiểm tra mã của bạn xung quanh dòng này để thử và sửa lỗi.\n\nLỗi: kiểu %0 không có thành viên %1";
+
+/* missing_parameter_type */
+"parameter requires an explicit type" = "Ồ, bạn có một lỗi. Hãy kiểm tra mã của bạn xung quanh dòng này để thử và sửa lỗi.\n\nLỗi: Tham số yêu cầu một kiểu tường minh";
+
+/* lex_invalid_character */
+"invalid character in source file" = "Ồ, bạn có một lỗi. Hãy kiểm tra mã của bạn xung quanh dòng này để thử và sửa lỗi.\n\nLỗi: Ký tự không hợp lệ trong tệp nguồn";
+
+/* expression_unused_closure */
+"closure expression is unused" = "Ồ, bạn có một lỗi. Hãy kiểm tra mã của bạn xung quanh dòng này để thử và sửa lỗi.\n\nLỗi: Biểu thức bao đóng không được sử dụng";
+
+/* collection_literal_empty */
+"empty collection literal requires an explicit type" = "Ồ, bạn có một lỗi. Hãy kiểm tra mã của bạn xung quanh dòng này để thử và sửa lỗi.\n\nLỗi: Chuỗi ký tự bộ sưu tập trống yêu cầu một kiểu tường minh";
+
+/* expected_separator */
+"expected '%0' separator" = "Ồ, bạn có một lỗi. Hãy kiểm tra mã của bạn xung quanh dòng này để thử và sửa lỗi.\n\nLỗi: Dự kiến có dấu phân cách \'%0\'";
+
+/* cannot_apply_binop_to_same_args */
+"binary operator '%0' cannot be applied to two %1 operands" = "Ồ, bạn có một lỗi. Hãy kiểm tra mã của bạn xung quanh dòng này để thử và sửa lỗi.\n\nLỗi: Không thể áp dụng toán tử nhị phân \'%0\' cho hai toán hạng %1";
+
+/* ambiguous_operator_ref */
+"ambiguous use of operator %0" = "Ồ, bạn có một lỗi. Hãy kiểm tra mã của bạn xung quanh dòng này để thử và sửa lỗi.\n\nLỗi: Cách sử dụng của toán tử %0 mơ hồ";
+
+/* expected_lbrace_after_switch */
+"expected '{' after 'switch' subject expression" = "Ồ, bạn có một lỗi. Hãy kiểm tra mã của bạn xung quanh dòng này để thử và sửa lỗi.\n\nLỗi: Dự kiến có \'{\' sau biểu thức chủ đề \'switch\'";
+
+/* expected_condition_if */
+"expected expression, var, or let in 'if' condition" = "Ồ, bạn có một lỗi. Hãy kiểm tra mã của bạn xung quanh dòng này để thử và sửa lỗi.\n\nLỗi: Dự kiến có biểu thức, var hoặc let trong điều kiện \'if\'";
+
+/* expected_parameter_type */
+"expected parameter type following ':'" = "Ồ, bạn có một lỗi. Hãy kiểm tra mã của bạn xung quanh dòng này để thử và sửa lỗi.\n\nLỗi: Dự kiến có loại tham số đứng sau dấu \':\'";
+
+/* illegal_semi_stmt */
+"';' statements are not allowed" = "Ồ, bạn có một lỗi. Hãy kiểm tra mã của bạn xung quanh dòng này để thử và sửa lỗi.\n\nLỗi: Không cho phép các câu lệnh \';\'";
+
+/* expected_lbrace_after_for */
+"expected '{' in 'for' statement" = "Ồ, bạn có một lỗi. Hãy kiểm tra mã của bạn xung quanh dòng này để thử và sửa lỗi.\n\nLỗi: Dự kiến có \'{\' trong câu lệnh \'for\'";
+
+/* var_pattern_in_var */
+"'%select{var|let}0' cannot appear nested inside another 'var' or 'let' pattern" = "Ồ, bạn có một lỗi. Hãy kiểm tra mã của bạn xung quanh dòng này để thử và sửa lỗi.\n\nLỗi: \'%select{var|let}0\' không thể xuất hiện được lồng bên trong một khuôn mẫu \'var\' hoặc \'let\' khác";
+
+/* expected_expr_in_expr_list */
+"expected expression in list of expressions" = "Ồ, bạn có một lỗi. Hãy kiểm tra mã của bạn xung quanh dòng này để thử và sửa lỗi.\n\nLỗi: Dự kiến có biểu thức trong danh sách các biểu thức";
+
+/* expected_identifier_in_decl */
+"expected identifier in %0 declaration" = "Ồ, bạn có một lỗi. Hãy kiểm tra mã của bạn xung quanh dòng này để thử và sửa lỗi.\n\nLỗi: Dự kiến có một mã định danh trong khai báo %0";
+
+/* lex_expected_digit_in_int_literal */
+"expected a digit after integer literal prefix" = "Ồ, bạn có một lỗi. Hãy kiểm tra mã của bạn xung quanh dòng này để thử và sửa lỗi.\n\nLỗi: Dự kiến có một chữ số sau tiền tố ký tự số nguyên";
+
+/* invalid_redecl */
+"invalid redeclaration of %0" = "Ồ, bạn có một lỗi. Hãy kiểm tra mã của bạn xung quanh dòng này để thử và sửa lỗi.\n\nLỗi: Việc khai báo lại không hợp lệ của %0";
+
+/* types_not_convertible */
+"%1 is not %select{convertible to|a subtype of}0 %2" = "Ồ, bạn có một lỗi. Hãy kiểm tra mã của bạn xung quanh dòng này để thử và sửa lỗi.\n\nLỗi: %1 không phải là %select{convertible to|a subtype of}0 %2";
+
+/* cannot_convert_assign */
+"cannot assign value of type %0 to type %1" = "Ồ, bạn có một lỗi. Hãy kiểm tra mã của bạn xung quanh dòng này để thử và sửa lỗi.\n\nLỗi: Không thể gán giá trị thuộc loại %0 cho loại %1";
+
+/* assignment_lhs_not_lvalue */
+"cannot assign to immutable expression of type %0" = "Ồ, bạn có một lỗi. Hãy kiểm tra mã của bạn xung quanh dòng này để thử và sửa lỗi.\n\nLỗi: Biểu thức thuộc kiểu %0 không biến đổi (không thể thay đổi được) và do đó bạn không thể cung cấp một giá trị khác cho biểu thức.";
+
+/* expected_rbrace_in_brace_stmt */
+"expected '}' at end of brace statement" = "Ồ, bạn có một lỗi. Hãy kiểm tra mã của bạn xung quanh dòng này để thử và sửa lỗi.\n\nLỗi: Dự kiến có \'}\' ở cuối câu lệnh dấu ngoặc nhọn";
+
+/* lex_editor_placeholder */
+"editor placeholder in source file" = "Ồ, bạn có một lỗi. Hãy kiểm tra mã của bạn xung quanh dòng này để thử và sửa lỗi.\n\nLỗi: Bạn cần điền vào trình giữ chỗ này";
+
+/* expected_prefix_operator */
+"unary operator cannot be separated from its operand" = "Ồ, bạn có một lỗi. Hãy kiểm tra mã của bạn xung quanh dòng này để thử và sửa lỗi.\n\nLỗi: Không thể tách toán tử đơn phân từ toán hạng của nó";
+
+/* use_nonmatching_operator */
+"%0 is not a %select{binary|prefix unary|postfix unary}1 operator" = "Ồ, bạn có một lỗi. Hãy kiểm tra mã của bạn xung quanh dòng này để thử và sửa lỗi.\n\nLỗi: %0 không phải là một toán tử %select{binary|prefix unary|postfix unary}1";
+
+/* lex_unary_equal */
+"'=' must have consistent whitespace on both sides" = "Ồ, bạn có một lỗi. Hãy kiểm tra mã của bạn xung quanh dòng này để thử và sửa lỗi.\n\nLỗi: \'=\' phải có số lượng khoảng trắng giống nhau ở cả hai bên";
+
+/* expected_lbrace_after_if */
+"expected '{' after 'if' condition" = "Ồ, bạn có một lỗi. Hãy kiểm tra mã của bạn xung quanh dòng này để thử và sửa lỗi.\n\nLỗi: Dự kiến có \'{\' sau điều kiện \'if\'";
+
+/* missing_argument_labels */
+"missing argument label%select{|s}0 '%1' in %select{call|subscript}2" = "Ồ, bạn có một lỗi. Hãy kiểm tra mã của bạn xung quanh dòng này để thử và sửa lỗi.\n\nLỗi: Thiếu nhãn đối số %select{|s}0 \'%1\' trong %select{call|subscript}2";
+
+/* cannot_subscript_with_index */
+"cannot subscript a value of type %0 with an index of type %1" = "Ồ, bạn có một lỗi. Hãy kiểm tra mã của bạn xung quanh dòng này để thử và sửa lỗi.\n\nLỗi: Không thể tạo chỉ số dưới cho giá trị thuộc loại %0 với một chỉ mục thuộc loại %1";
+
+/* cannot_call_with_no_params */
+"cannot invoke %select{|initializer for type }1'%0' with no arguments" = "Ồ, bạn có một lỗi. Hãy kiểm tra mã của bạn xung quanh dòng này để thử và sửa lỗi.\n\nLỗi: Không thể gọi %select{|initializer for type }1\'%0\' mà không có đối số";
+
+/* expected_lbrace_after_repeat */
+"expected '{' after 'repeat'" = "Ồ, bạn có một lỗi. Hãy kiểm tra mã của bạn xung quanh dòng này để thử và sửa lỗi.\n\nLỗi: Bạn cần một \'{\' sau \'repeat\'";
+
+/* expected_lbrace_after_while */
+"expected '{' after 'while' condition" = "Ồ, bạn có một lỗi. Hãy kiểm tra mã của bạn xung quanh dòng này để thử và sửa lỗi.\n\nLỗi: Bạn cần một \'{\' sau điều kiện \'while\'";
+
+/* repeated_identifier */
+"found an unexpected second identifier in %0 declaration; is there an accidental break?" = "Ồ, bạn có một lỗi. Hãy kiểm tra mã của bạn xung quanh dòng này để thử và sửa lỗi.\n\nLỗi: Đã tìm thấy một mã định danh thứ hai ngoài dự kiến trong khai báo %0; đó có phải là một dấu ngắt tình cờ không?";
+
+/* assignment_lhs_is_immutable_variable */
+"cannot assign to value: %0" = "Ồ, bạn có một lỗi. Hãy kiểm tra mã của bạn xung quanh dòng này để thử và sửa lỗi.\n\nLỗi: Không thể gán cho giá trị %0";
+
+/* cannot_convert_argument_value_protocol */
+"argument type %0 does not conform to expected type %1" = "Ồ, bạn có một lỗi. Hãy kiểm tra mã của bạn xung quanh dòng này để thử và sửa lỗi.\n\nLỗi: Loại đối số %0 không tuân theo loại được dự kiến %1";
+
+/* expected_pattern */
+"expected pattern" = "Ồ, bạn có một lỗi. Hãy kiểm tra mã của bạn xung quanh dòng này để thử và sửa lỗi.\n\nLỗi: Dự kiến có khuôn mẫu";
+
+/* statement_begins_with_closure */
+"top-level statement cannot begin with a closure expression" = "Ồ, bạn có một lỗi. Hãy kiểm tra mã của bạn xung quanh dòng này để thử và sửa lỗi.\n\nLỗi: Câu lệnh cấp cao nhất không thể bắt đầu với một biểu thức bao đóng";
+
+/* expected_expr */
+"expected expression" = "Ồ, bạn có một lỗi. Hãy kiểm tra mã của bạn xung quanh dòng này để thử và sửa lỗi.\n\nLỗi: Dự kiến có biểu thức";
+
+/* expected_expr_after_operator */
+"expected expression after operator" = "Ồ, bạn có một lỗi. Hãy kiểm tra mã của bạn xung quanh dòng này để thử và sửa lỗi.\n\nLỗi: Dự kiến có biểu thức sau toán tử";
+
+/* expected_closure_rbrace */
+"expected '}' at end of closure" = "Ồ, bạn có một lỗi. Hãy kiểm tra mã của bạn xung quanh dòng này để thử và sửa lỗi.\n\nLỗi: Dự kiến có \'}\' ở cuối bao đóng";
+
+/* unresolved_member_no_inference */
+"reference to member %0 cannot be resolved without a contextual type" = "Ồ, bạn có một lỗi. Hãy kiểm tra mã của bạn xung quanh dòng này để thử và sửa lỗi.\n\nLỗi: Không thể phân giải tham chiếu đến thành viên %0 mà không có kiểu ngữ cảnh";
+
+/* unexpected_else_after_if */
+"unexpected 'else' immediately following 'if' condition" = "Ồ, bạn có một lỗi. Hãy kiểm tra mã của bạn xung quanh dòng này để thử và sửa lỗi.\n\nLỗi: \'else\' ngoài dự kiến đứng ngay sau điều kiện \'if\'";
+
+/* use_unresolved_identifier */
+"use of unresolved %select{identifier|operator}1 %0" = "Ồ, bạn có một lỗi. Hãy kiểm tra mã của bạn xung quanh dòng này để thử và sửa lỗi.\n\nLỗi: Sử dụng %select{identifier|operator}1 %0 chưa phân giải";
+
+/* use_undeclared_type */
+"use of undeclared type %0" = "Ồ, bạn có một lỗi. Hãy kiểm tra mã của bạn xung quanh dòng này để thử và sửa lỗi.\n\nLỗi: Sử dụng kiểu %0 chưa khai báo";
+
+/* parameter_curry_syntax_removed */
+"curried function declaration syntax has been removed; use a single parameter list" = "Ồ, bạn có một lỗi. Hãy kiểm tra mã của bạn xung quanh dòng này để thử và sửa lỗi.\n\nLỗi: Cú pháp khai báo hàm Curry đã bị xóa; sử dụng một danh sách tham số duy nhất";
+
+/* expected_condition_while */
+"expected expression, var, or let in 'while' condition" = "Ồ, bạn có một lỗi. Hãy kiểm tra mã của bạn xung quanh dòng này để thử và sửa lỗi.\n\nLỗi: Dự kiến có biểu thức, var hoặc let trong điều kiện \'while\'";
+
+/* use_of_equal_instead_of_equality */
+"use of '=' in a boolean context, did you mean '=='?" = "Ồ, bạn có một lỗi. Hãy kiểm tra mã của bạn xung quanh dòng này để thử và sửa lỗi.\n\nLỗi: Bạn đã sử dụng \'=\', là một toán tử gán, trong ngữ cảnh so sánh boolean, có phải ý của bạn là \'==\' không?";
+
+/* expected_cond_for_stmt */
+"expected condition in 'for' statement" = "Ồ, bạn có một lỗi. Hãy kiểm tra mã của bạn xung quanh dòng này để thử và sửa lỗi.\n\nLỗi: Bạn cần một điều kiện trong câu lệnh \'for\'";
+
+/* expected_parameter_name */
+"expected parameter name followed by ':'" = "Ồ, bạn có một lỗi. Hãy kiểm tra mã của bạn xung quanh dòng này để thử và sửa lỗi.\n\nLỗi: Dự kiến có tên tham số đứng trước dấu \':\'";
+
+/* non_associative_adjacent_operators */
+"adjacent operators are in non-associative precedence group %0" = "Ồ, bạn có một lỗi. Hãy kiểm tra mã của bạn xung quanh dòng này để thử và sửa lỗi.\n\nLỗi: Các toán tử liền kề nằm trong nhóm ưu tiên không liên kết %0";
+
+/* expected_foreach_lbrace */
+"expected '{' to start the body of for-each loop" = "Ồ, bạn có một lỗi. Hãy kiểm tra mã của bạn xung quanh dòng này để thử và sửa lỗi.\n\nLỗi: Bạn cần một \'{\' để bắt đầu phần thân của vòng lặp for-each";
+
+/* invalid_force_unwrap */
+"cannot force unwrap value of non-optional type %0" = "Ồ, bạn có một lỗi. Hãy kiểm tra mã của bạn xung quanh dòng này để thử và sửa lỗi.\n\nLỗi: Bạn không thể bắt buộc mở gói giá trị thuộc kiểu không tùy chọn %0";
+
+/* extra_argument_positional */
+"extra argument in call" = "Ồ, bạn có một lỗi. Hãy kiểm tra mã của bạn xung quanh dòng này để thử và sửa lỗi.\n\nLỗi: Thừa đối số trong lệnh gọi";
+
+/* expected_foreach_container */
+"expected Sequence expression for for-each loop" = "Ồ, bạn có một lỗi. Hãy kiểm tra mã của bạn xung quanh dòng này để thử và sửa lỗi.\n\nLỗi: Dự kiến có biểu thức Trình tự trong vòng lặp for-each";
+
+/* missing_argument_named */
+"missing argument for parameter %0 in call" = "Ồ, bạn có một lỗi. Hãy kiểm tra mã của bạn xung quanh dòng này để thử và sửa lỗi.\n\nLỗi: Thiếu đối số cho tham số %0 trong lệnh gọi";
+
+/* extra_whitespace_period */
+"extraneous whitespace after '.' is not permitted" = "Ồ, bạn có một lỗi. Hãy kiểm tra mã của bạn xung quanh dòng này để thử và sửa lỗi.\n\nLỗi: Bạn không thể có khoảng trắng sau dấu \'.\'";
+
+/* extra_rbrace */
+"extraneous '}' at top level" = "Ồ, bạn có một lỗi. Hãy kiểm tra mã của bạn xung quanh dòng này để thử và sửa lỗi.\n\nLỗi: Thừa \'}\' ở mức cao nhất";
+
+/* could_not_find_value_member */
+"value of type %0 has no member %1" = "Ồ, bạn có một lỗi. Hãy kiểm tra mã của bạn xung quanh dòng này để thử và sửa lỗi.\n\nLỗi: Giá trị của kiểu %0 không có thành viên %1";
+
+/* expected_expr_assignment */
+"expected expression in assignment" = "Ồ, bạn có một lỗi. Hãy kiểm tra mã của bạn xung quanh dòng này để thử và sửa lỗi.\n\nLỗi: Dự kiến có biểu thức trong lệnh gán";
+
+/* cannot_convert_argument_value */
+"cannot convert value of type %0 to expected argument type %1" = "Ồ, bạn có một lỗi. Hãy kiểm tra mã của bạn xung quanh dòng này để thử và sửa lỗi.\n\nLỗi: Không thể chuyển đổi giá trị thuộc loại %0 thành loại đối số dự kiến %1";
+
+/* expected_member_name */
+"expected member name following '.'" = "Ồ, bạn có một lỗi. Hãy kiểm tra mã của bạn xung quanh dòng này để thử và sửa lỗi.\n\nLỗi: Dự kiến có tên thành viên sau dấu \'.\'";

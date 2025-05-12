@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Diff</key>
+	<array>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>// 在橫列 2 中建立包含所有座標的陣列。
+let allplace = world.allPossibleCoordinates
+// 建立空的座標陣列。
+var blockset:[Coordinate] = []
+var raw2 = world.row(2)
+</string>
+			<key>ModifiedRange</key>
+			<string>{2789, 135}</string>
+			<key>OriginalContent</key>
+			<string>//#-localizable-zone(ch13ex06k1)
+// Create an array of all coordinates in row 2.
+//#-end-localizable-zone
+
+//#-localizable-zone(ch13ex06k2)
+// Create an empty array of coordinates.
+//#-end-localizable-zone
+
+</string>
+			<key>OriginalRange</key>
+			<string>{2789, 207}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>    for place in raw2 {
+        world.place(Block(), at: place)
+</string>
+			<key>ModifiedRange</key>
+			<string>{2943, 64}</string>
+			<key>OriginalContent</key>
+			<string>    for &lt;#coordinate#&gt; in &lt;#row 2#&gt; {
+        world.place(Block(), at: &lt;#coordinate#&gt;)
+</string>
+			<key>OriginalRange</key>
+			<string>{3015, 87}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>    // 移除座標並附加到空的陣列。
+    blockset.append(raw2.remove(at: 0))
+</string>
+			<key>ModifiedRange</key>
+			<string>{3013, 61}</string>
+			<key>OriginalContent</key>
+			<string>//#-localizable-zone(ch13ex06k3)
+    // Remove a coordinate and append it to your empty array.
+//#-end-localizable-zone
+    
+</string>
+			<key>OriginalRange</key>
+			<string>{3108, 125}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>// 為每一個加入空陣列的座標放置一個角色。
+for place in blockset {
+    world.place(Character(), at: place)
+</string>
+			<key>ModifiedRange</key>
+			<string>{3077, 87}</string>
+			<key>OriginalContent</key>
+			<string>//#-localizable-zone(ch13ex06k4)
+// Place a character for each coordinate added to your empty array.
+//#-end-localizable-zone
+for &lt;#item#&gt; in &lt;#array#&gt; {
+    
+</string>
+			<key>OriginalRange</key>
+			<string>{3236, 159}</string>
+		</dict>
+	</array>
+	<key>File</key>
+	<string>Chapters/Document13.playgroundchapter/Pages/06.playgroundpage/main.swift</string>
+</dict>
+</plist>

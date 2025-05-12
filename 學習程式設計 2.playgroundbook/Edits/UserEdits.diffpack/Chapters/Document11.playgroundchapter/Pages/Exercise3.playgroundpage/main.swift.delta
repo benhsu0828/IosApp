@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Diff</key>
+	<array>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>world.place(expert, atColumn: 1, row: 1)
+expert.collectGem()
+
+world.place(expert, atColumn: 6, row: 1)
+expert.collectGem()
+
+world.place(expert, atColumn: 1, row: 6)
+expert.collectGem()
+</string>
+			<key>ModifiedRange</key>
+			<string>{2031, 185}</string>
+			<key>OriginalContent</key>
+			<string>world.place(&lt;#Item#&gt;, atColumn: &lt;#T##Int##Int#&gt;, row: &lt;#T##Int##Int#&gt;)
+
+
+</string>
+			<key>OriginalRange</key>
+			<string>{2031, 73}</string>
+		</dict>
+	</array>
+	<key>File</key>
+	<string>Chapters/Document11.playgroundchapter/Pages/Exercise3.playgroundpage/main.swift</string>
+</dict>
+</plist>

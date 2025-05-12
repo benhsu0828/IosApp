@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Diff</key>
+	<array>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>Exper</string>
+			<key>ModifiedRange</key>
+			<string>{1434, 5}</string>
+			<key>OriginalContent</key>
+			<string>&lt;#ini</string>
+			<key>OriginalRange</key>
+			<string>{1434, 5}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>()</string>
+			<key>ModifiedRange</key>
+			<string>{1440, 2}</string>
+			<key>OriginalContent</key>
+			<string>ialize#&gt;</string>
+			<key>OriginalRange</key>
+			<string>{1440, 8}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>Charac</string>
+			<key>ModifiedRange</key>
+			<string>{1501, 6}</string>
+			<key>OriginalContent</key>
+			<string>&lt;#ini</string>
+			<key>OriginalRange</key>
+			<string>{1507, 5}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{1508, 0}</string>
+			<key>OriginalContent</key>
+			<string>ializ</string>
+			<key>OriginalRange</key>
+			<string>{1513, 5}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>r()</string>
+			<key>ModifiedRange</key>
+			<string>{1509, 3}</string>
+			<key>OriginalContent</key>
+			<string>#&gt;</string>
+			<key>OriginalRange</key>
+			<string>{1519, 2}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>expert.turnLeft()
+expert.moveForward()
+expert.moveForward()
+expert.moveForward()
+expert.turnRight()
+expert.moveForward()
+expert.moveForward()
+expert.turnLeft()
+expert.turnLockDown()
+expert.turnLockDown()
+
+character.moveForward()
+character.moveForward()
+character.collectGem()
+
+expert.turnRight()
+expert.moveForward()
+expert.moveForward()
+expert.turnRight()
+expert.moveForward()
+expert.moveForward()
+expert.moveForward()
+expert.moveForward()
+expert.moveForward()
+expert.moveForward()
+expert.turnRight()
+expert.moveForward()
+expert.moveForward()
+expert.turnLeft()
+expert.turnLockUp()
+
+character.moveForward()
+character.moveForward()
+character.toggleSwitch()
+</string>
+			<key>ModifiedRange</key>
+			<string>{1856, 656}</string>
+			<key>OriginalContent</key>
+			<string>
+</string>
+			<key>OriginalRange</key>
+			<string>{1865, 1}</string>
+		</dict>
+	</array>
+	<key>File</key>
+	<string>Chapters/Document10.playgroundchapter/Pages/Challenge2.playgroundpage/main.swift</string>
+</dict>
+</plist>

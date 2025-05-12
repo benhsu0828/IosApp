@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Diff</key>
+	<array>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>// 為你的迴圈變數命名並傳入陣列。
+for c in columns {
+    // 每一個直欄放置一個寶石和一個開關。
+    world.place(Gem(), atColumn: c, row: 1)
+    world.place(Switch(), atColumn: c, row: 1)
+</string>
+			<key>ModifiedRange</key>
+			<string>{2581, 154}</string>
+			<key>OriginalContent</key>
+			<string>//#-localizable-zone(ch13ex01k1)
+// Give your loop variable a name and pass in your array.
+//#-end-localizable-zone
+for &lt;#column#&gt; in &lt;#T##array name##[Coordinate]#&gt; {
+//#-localizable-zone(ch13ex01k2)
+    // Place a gem and a switch for each column.
+//#-end-localizable-zone
+    world.place(Gem(), atColumn: &lt;#column#&gt;, row: 1)
+</string>
+			<key>OriginalRange</key>
+			<string>{2581, 328}</string>
+		</dict>
+	</array>
+	<key>File</key>
+	<string>Chapters/Document13.playgroundchapter/Pages/01.playgroundpage/main.swift</string>
+</dict>
+</plist>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Diff</key>
+	<array>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>// 加入剩下的兩個角座標。
+</string>
+			<key>ModifiedRange</key>
+			<string>{2353, 15}</string>
+			<key>OriginalContent</key>
+			<string>//#-localizable-zone(ch13ex02k1)
+// Add the two remaining corner coordinates.
+//#-end-localizable-zone
+</string>
+			<key>OriginalRange</key>
+			<string>{2353, 103}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>    Coordinate(column: 0, row: 3),
+    Coordinate(column: 3, row: 0)
+</string>
+			<key>ModifiedRange</key>
+			<string>{2461, 69}</string>
+			<key>OriginalContent</key>
+			<string>    &lt;#Insert a new coordinate#&gt;
+</string>
+			<key>OriginalRange</key>
+			<string>{2549, 32}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>// 在每個座標放置五塊磚塊。
+for i in 1 ... 5 {
+    for coordinate in blockLocations {
+        world.place(Block(), at: coordinate)
+    }
+</string>
+			<key>ModifiedRange</key>
+			<string>{2532, 125}</string>
+			<key>OriginalContent</key>
+			<string>//#-localizable-zone(ch13ex02k2)
+// Place five blocks at each coordinate.
+//#-end-localizable-zone
+for coordinate in &lt;#T##array name##[Coordinate]#&gt; {
+
+</string>
+			<key>OriginalRange</key>
+			<string>{2583, 152}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>
+
+</string>
+			<key>ModifiedRange</key>
+			<string>{2659, 2}</string>
+			<key>OriginalContent</key>
+			<string></string>
+			<key>OriginalRange</key>
+			<string>{2737, 0}</string>
+		</dict>
+	</array>
+	<key>File</key>
+	<string>Chapters/Document13.playgroundchapter/Pages/02.playgroundpage/main.swift</string>
+</dict>
+</plist>

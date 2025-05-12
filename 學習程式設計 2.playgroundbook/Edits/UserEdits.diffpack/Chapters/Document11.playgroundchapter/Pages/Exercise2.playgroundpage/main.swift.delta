@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Diff</key>
+	<array>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>Exper</string>
+			<key>ModifiedRange</key>
+			<string>{1777, 5}</string>
+			<key>OriginalContent</key>
+			<string>&lt;#ini</string>
+			<key>OriginalRange</key>
+			<string>{1777, 5}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>()</string>
+			<key>ModifiedRange</key>
+			<string>{1783, 2}</string>
+			<key>OriginalContent</key>
+			<string>ialize#&gt;</string>
+			<key>OriginalRange</key>
+			<string>{1783, 8}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>Charac</string>
+			<key>ModifiedRange</key>
+			<string>{1844, 6}</string>
+			<key>OriginalContent</key>
+			<string>&lt;#ini</string>
+			<key>OriginalRange</key>
+			<string>{1850, 5}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{1851, 0}</string>
+			<key>OriginalContent</key>
+			<string>ializ</string>
+			<key>OriginalRange</key>
+			<string>{1856, 5}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>r()</string>
+			<key>ModifiedRange</key>
+			<string>{1852, 3}</string>
+			<key>OriginalContent</key>
+			<string>#&gt;</string>
+			<key>OriginalRange</key>
+			<string>{1862, 2}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>    if up{
+        for i in 1 ... numberOfTimes {
+            expert.turnLockUp()
+        }
+    }else{
+        for i in 1 ... numberOfTimes {
+            expert.turnLockDown()
+       }
+    }
+</string>
+			<key>ModifiedRange</key>
+			<string>{2244, 191}</string>
+			<key>OriginalContent</key>
+			<string>    
+</string>
+			<key>OriginalRange</key>
+			<string>{2253, 5}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>turnLock(up: true, numberOfTimes: 3)
+expert.turnRight()
+expert.turnRight()
+turnLock(up: true, numberOfTimes: 3)
+character.moveForward()
+character.moveForward()
+character.moveForward()
+character.collectGem()
+character.turnRight()
+character.turnRight()
+character.moveForward()
+character.turnLeft()
+character.moveForward()
+character.turnLeft()
+expert.turnRight()
+expert.turnRight()
+turnLock(up: false, numberOfTimes: 2)
+
+character.moveForward()
+character.collectGem()
+
+character.turnRight()
+character.turnRight()
+character.moveForward()
+turnLock(up: false, numberOfTimes: 1)
+expert.turnRight()
+expert.turnRight()
+turnLock(up: false, numberOfTimes: 3)
+character.moveForward()
+character.moveForward()
+character.collectGem()
+</string>
+			<key>ModifiedRange</key>
+			<string>{2481, 719}</string>
+			<key>OriginalContent</key>
+			<string>
+</string>
+			<key>OriginalRange</key>
+			<string>{2304, 1}</string>
+		</dict>
+	</array>
+	<key>File</key>
+	<string>Chapters/Document11.playgroundchapter/Pages/Exercise2.playgroundpage/main.swift</string>
+</dict>
+</plist>
