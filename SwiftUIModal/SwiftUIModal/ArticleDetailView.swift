@@ -9,6 +9,9 @@ import SwiftUI
 
 struct ArticleDetailView: View {
     
+    @Environment(\.presentationMode) var presentationMode
+    @State private var showAlert = false
+    
     var article: Article
     
     var body: some View {
@@ -38,6 +41,29 @@ struct ArticleDetailView: View {
                     .multilineTextAlignment(.leading)
             }
             
+        }
+        .overlay(
+            
+            HStack {
+                Spacer()
+                
+                VStack {
+                    Button(action: {
+                        self.showAlert = true
+                    }, label: {
+                        Image(systemName: "chevron.down.circle.fill")
+                            .font(.largeTitle)
+                            .foregroundColor(.white)
+                    })
+                    .padding(.trailing, 20)
+                    .padding(.top, 40)
+                    
+                    Spacer()
+                }
+            }
+        )
+        .alert(isPresented: $showAlert) {
+            Alert(title: Text("Reminder"), message: Text("Are you sure you finish reading the article?"), primaryButton: .default(Text("Yes"), action: { self.presentationMode.wrappedValue.dismiss() }), secondaryButton: .cancel(Text("No")))
         }
         
         .edgesIgnoringSafeArea(.top)

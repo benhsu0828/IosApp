@@ -8,27 +8,26 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State var showDetailView = false
     @State var selectedArticle: Article?
     
     var body: some View {
         NavigationView {
-                    List(articles) { article in
-                        ArticleRow(article: article)
-                            .onTapGesture {
-                                        self.showDetailView = true
-                                        self.selectedArticle = article
-                                    }
+            List(articles) { article in
+                ArticleRow(article: article)
+                    .onTapGesture {
+                        self.selectedArticle = article
                     }
-                    .sheet(isPresented: self.$showDetailView) {
+            }
+            .sheet(item: self.$selectedArticle) { article in
+                ArticleDetailView(article: article)
+            }
+//            .fullScreenCover(item: self.$selectedArticle) { article in
+//                ArticleDetailView(article: article)
+//            }
 
-                            if let selectedArticle = self.selectedArticle {
-                                ArticleDetailView(article: selectedArticle)
-                            }
-                        }
-
-                    .navigationBarTitle("Your Reading")
-                }
+            .navigationBarTitle("Your Reading")
+        }
+        .navigationViewStyle(StackNavigationViewStyle())
     }
 }
 
